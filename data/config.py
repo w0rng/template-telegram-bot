@@ -3,7 +3,7 @@ from os import environ
 
 TG_TOKEN = environ.get("TG_TOKEN", '')
 ADMINS = environ.get("ADMINS", '').split(',')
-DEBUG = environ.get('DEBUG', False).lower() == 'true'
+DEBUG = environ.get('DEBUG', 'False').lower() == 'true'
 DATABASE = environ.get('DATABASE', 'sqlite:///:memory:')
 
 DOMAIN = environ.get('DOMAIN', None)

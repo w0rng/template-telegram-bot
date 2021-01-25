@@ -10,4 +10,4 @@ DOMAIN = environ.get('DOMAIN', None)
 WEBHOOK_PATH = f'/webhook/{TG_TOKEN}'
 WEBHOOK_URL = f'{DOMAIN}{WEBHOOK_PATH}'
 WEBAPP_HOST = '0.0.0.0'
-WEBAPP_PORT = environ.get('PORT', 0)
+WEBAPP_PORT = environ.get('PORT', 5000)

@@ -3,6 +3,6 @@ INSTALLED_MODULES = [
     'handlers'
 ]
 
-INSTALLED_MIDLEWARES = [
+INSTALLED_MIDDLEWARES = [
     'throttling.ThrottlingMiddleware'
 ]

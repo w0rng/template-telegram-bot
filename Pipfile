@@ -7,6 +7,10 @@ name = "pypi"
 aiogram = ">=2.11.2,<3.0"
 
 [dev-packages]
+flake8 = "*"
+argh = "*"
+pyyaml = "*"
+watchdog = "*"
 
 [requires]
 python_version = "3.8"

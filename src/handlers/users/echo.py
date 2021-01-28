@@ -1,5 +1,5 @@
 from aiogram import types
-from loader import dp
+from config import dp
 
 
 # Эхо хендлер, куда летят текстовые сообщения без указанного состояния
